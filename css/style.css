@@ -117,8 +117,9 @@ ul li::marker {
     width: 1600px;
     height: 380px;
     left: 0px;
-    padding: 100px 100px 100px ;
+    padding: 100px 100px 100px;
     display: flex;
+    margin-top: 100px;
 }
 
 .footer h1 {
@@ -127,4 +128,36 @@ ul li::marker {
 
 .footer p {
     color: white;
+}
+
+.info{
+    padding-left: 200px;
+}
+
+.input{
+    padding: 60px 0px 0px 300px;
+}
+
+.input h2 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.submit-btn{
+    background-color: white;
+    color: #F15B22;
+    padding: 10px 20px;
+    margin-top: 50px;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.input-form {
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
 }

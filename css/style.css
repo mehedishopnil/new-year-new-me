@@ -1,9 +1,13 @@
 body {
     font-family: Work Sans;
     padding: 0%;
+    
 }
 
 .header-cover {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
     background-image: url("images/banner1.png");
     background-repeat: no-repeat;
 }
@@ -124,10 +128,9 @@ ul li::marker {
 .footer {
     background-color: #151414;
     color: white;
-    width: 1600px;
     height: 350px;
     left: 0px;
-    padding: 100px 100px 100px;
+    padding: 100px 0px 0px 100px ;
     display: flex;
     margin-top: 100px;
 }

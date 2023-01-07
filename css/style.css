@@ -28,6 +28,7 @@ p {
     color: #444343;
     font-weight: 400;
     font-size: 16px;
+    
 }
 
 .banner-content p {
@@ -62,6 +63,7 @@ p {
     height: 723.3px;
     left: 206px;
     top: 939px;
+    padding-left: 300px;
 }
 
 ul li::marker {
@@ -83,6 +85,14 @@ ul li::marker {
     display: flex;
     margin: 50px 50px;
     align-content: center;
+}
+
+.plan {
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
 }
 
 .my-plan-content {
@@ -130,11 +140,11 @@ ul li::marker {
     color: white;
 }
 
-.info{
+.info {
     padding-left: 200px;
 }
 
-.input{
+.input {
     padding: 60px 0px 0px 300px;
 }
 
@@ -143,7 +153,7 @@ ul li::marker {
     font-size: 25px;
 }
 
-.submit-btn{
+.submit-btn {
     background-color: white;
     color: #F15B22;
     padding: 10px 20px;
@@ -159,5 +169,5 @@ ul li::marker {
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 20px;
-    
+
 }

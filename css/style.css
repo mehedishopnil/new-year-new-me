@@ -125,7 +125,7 @@ ul li::marker {
     background-color: #151414;
     color: white;
     width: 1600px;
-    height: 380px;
+    height: 350px;
     left: 0px;
     padding: 100px 100px 100px;
     display: flex;
@@ -146,6 +146,7 @@ ul li::marker {
 
 .input {
     padding: 60px 0px 0px 300px;
+    color: white;
 }
 
 .input h2 {
@@ -156,18 +157,25 @@ ul li::marker {
 .submit-btn {
     background-color: white;
     color: #F15B22;
-    padding: 10px 20px;
-    margin-top: 50px;
+    padding: 20px 30px;
+    margin-top: 35px;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 500;
     border-radius: 5px;
+    font-size: 22px;
+}
+
+.submit-btn:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 1px solid white;
 }
 
 .input-form {
     border: 1px solid white;
     background-color: rgba(255, 255, 255, 0);
-    padding: 10px;
+    padding: 20px 50px;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 
 }

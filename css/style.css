@@ -1,0 +1,76 @@
+body {
+    font-family: Work Sans;
+}
+
+.header-cover {
+    background-image: url("images/banner1.png");
+    background-repeat: no-repeat;
+}
+
+.banner-content {
+    text-align: right;
+    padding: 200px 100px;
+}
+
+.banner-content h1 {
+    font-size: 65px;
+    color: #151414
+}
+h1{
+    font-size: 40px;
+    color: #151414  
+}
+
+p{
+    font-size: 18px;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;  
+}
+
+.banner-content p {
+    font-size: 18px;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    padding: 15px 20px;
+    background-color: #F15B22;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+.content-section {
+    display: flex;
+    
+}
+
+.person-content {
+    margin: 200px 0px 0px 150px;
+}
+
+.person {
+    
+    width: 569px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+}
+ul li::marker {
+    content: '✓';
+    color: green;
+    
+  }
+
+.list{
+    margin-left: -20px;
+    font-size: 18px;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+}

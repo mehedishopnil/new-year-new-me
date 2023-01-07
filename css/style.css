@@ -1,5 +1,6 @@
 body {
     font-family: Work Sans;
+    padding: 0%;
 }
 
 .header-cover {
@@ -16,16 +17,17 @@ body {
     font-size: 65px;
     color: #151414
 }
-h1{
+
+h1 {
     font-size: 40px;
-    color: #151414  
+    color: #151414
 }
 
-p{
+p {
     font-size: 18px;
     color: #444343;
     font-weight: 400;
-    font-size: 16px;  
+    font-size: 16px;
 }
 
 .banner-content p {
@@ -47,7 +49,7 @@ p{
 
 .content-section {
     display: flex;
-    
+
 }
 
 .person-content {
@@ -55,22 +57,74 @@ p{
 }
 
 .person {
-    
+
     width: 569px;
     height: 723.3px;
     left: 206px;
     top: 939px;
 }
+
 ul li::marker {
     content: '✓';
     color: green;
-    
-  }
 
-.list{
+}
+
+.list {
     margin-left: -20px;
     font-size: 18px;
     color: #444343;
     font-weight: 400;
     font-size: 16px;
+}
+
+.my-plan {
+    position: relative;
+    display: flex;
+    margin: 50px 50px;
+    align-content: center;
+}
+
+.my-plan-content {
+    padding: 50px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.slide-sectiob {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 128, 0, 0.621), rgba(255, 0, 0, 0.801)), url("images/watch.png");
+    background-repeat: no-repeat;
+    align-content: center;
+    margin-left: 250px;
+    width: 65%;
+    height: 38vh;
+    border-radius: 10px;
+
+}
+
+.slide-content {
+    padding: 40px 0px 0px 50px;
+}
+
+.slide-content h1 {
+    color: white;
+}
+
+.footer {
+    background-color: #151414;
+    color: white;
+    width: 1600px;
+    height: 380px;
+    left: 0px;
+    padding: 100px 100px 100px ;
+    display: flex;
+}
+
+.footer h1 {
+    color: white;
+}
+
+.footer p {
+    color: white;
 }
